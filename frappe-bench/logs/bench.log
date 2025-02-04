@@ -1,0 +1,25 @@
+2025-02-04 11:53:11,664 DEBUG cd frappe-bench && python3 -m venv env
+2025-02-04 11:53:13,122 DEBUG cd frappe-bench && /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade pip
+2025-02-04 11:53:14,632 DEBUG cd frappe-bench && /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench/env/bin/python -m pip install --quiet wheel
+2025-02-04 11:53:15,442 LOG Getting frappe
+2025-02-04 11:53:15,442 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git  --depth 1 --origin upstream
+2025-02-04 11:53:18,721 LOG Installing frappe
+2025-02-04 11:53:18,721 DEBUG cd /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench && /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench/apps/frappe 
+2025-02-04 11:53:44,214 DEBUG cd /Users/ivanplatonov/Prog_practice/Frappe/frappe-bench/apps/frappe && yarn install --check-files
+2025-02-04 11:53:47,925 WARNING restart failed: Couldn't find supervisorctl in PATH
+2025-02-04 11:53:47,925 DEBUG cd frappe-bench && bench build
+2025-02-04 11:53:48,058 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench build
+2025-02-04 11:53:55,427 LOG setting up backups
+2025-02-04 11:53:55,438 LOG backups were set up
+2025-02-04 11:53:55,438 INFO Bench frappe-bench initialized
+2025-02-04 11:54:44,795 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench start
+2025-02-04 11:54:45,007 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench worker
+2025-02-04 11:54:45,011 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench watch
+2025-02-04 11:54:45,018 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench serve --port 8001
+2025-02-04 11:54:45,018 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench schedule
+2025-02-04 11:55:35,742 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench start
+2025-02-04 11:55:35,914 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench schedule
+2025-02-04 11:55:35,914 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench serve --port 8001
+2025-02-04 11:55:35,914 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench watch
+2025-02-04 11:55:35,917 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench worker
+2025-02-04 12:00:01,121 INFO /Library/Frameworks/Python.framework/Versions/3.11/bin/bench --verbose --site all backup

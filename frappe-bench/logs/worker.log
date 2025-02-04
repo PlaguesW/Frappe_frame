@@ -1,0 +1,16 @@
+2025-02-04 11:54:45,257 Worker rq:worker:2e11aaf8c02747468b88619aeebdcd47 started with PID 67992, version 1.16.2
+2025-02-04 11:54:45,257 Subscribing to channel rq:pubsub:2e11aaf8c02747468b88619aeebdcd47
+2025-02-04 11:54:45,258 *** Listening on Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:short, Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:default, Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:long...
+2025-02-04 11:54:45,258 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:short
+2025-02-04 11:54:45,259 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:default
+2025-02-04 11:54:45,259 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:long
+2025-02-04 11:55:31,519 Worker 2e11aaf8c02747468b88619aeebdcd47 [PID 67992]: warm shut down requested
+2025-02-04 11:55:31,521 Unsubscribing from channel rq:pubsub:2e11aaf8c02747468b88619aeebdcd47
+2025-02-04 11:55:36,199 Worker rq:worker:e847cde314aa4e75b0fd692878fb92fa started with PID 68594, version 1.16.2
+2025-02-04 11:55:36,199 Subscribing to channel rq:pubsub:e847cde314aa4e75b0fd692878fb92fa
+2025-02-04 11:55:36,199 *** Listening on Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:short, Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:default, Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:long...
+2025-02-04 11:55:36,199 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:short
+2025-02-04 11:55:36,200 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:default
+2025-02-04 11:55:36,201 Cleaning registries for queue: Users-ivanplatonov-Prog_practice-Frappe-frappe-bench:long
+2025-02-04 11:55:50,854 Worker e847cde314aa4e75b0fd692878fb92fa [PID 68594]: warm shut down requested
+2025-02-04 11:55:50,856 Unsubscribing from channel rq:pubsub:e847cde314aa4e75b0fd692878fb92fa
